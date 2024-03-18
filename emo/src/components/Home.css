@@ -1,0 +1,45 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Main container */
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Left section styles */
+  .left-section {
+    flex: 1;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  /* Other sections styles */
+  .search-button,
+  .profile-pic {
+    margin-left: 20px;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
